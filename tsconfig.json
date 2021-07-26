@@ -1,0 +1,21 @@
+{
+  "compilerOptions" : {
+    "esModuleInterop": true,
+    "module" : "commonjs",
+    "target" : "es5",
+    "sourceMap" : true
+  },
+  "typeRoots": [
+    "node_modules/@types"
+  ],
+  "types": [
+    "mocha",
+    "node",
+    "chai",
+    "sinon",
+    "sinon-chai"
+  ],
+  "exclude" : [
+    "node_modules"
+  ]
+}
